@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the entire body */
+  body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the login container */
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  /* Style for the login header */
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-header h2 {
+    color: #333;
+  }
+  
+  /* Style for the form elements */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the forgot password link */
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .forgot-password a:hover {
+    color: #0056b3;
+  }
+  
